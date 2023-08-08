@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>后台管理</title>
+    <link rel="stylesheet" href="css/admin.css" />
+  </head>
+  <body>
+    <header>
+      <h1>后台管理</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">首页</a></li>
+        <li><a href="">新闻管理</a></li>
+        <li><a href="">分类管理</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section class="overview">
+        <h2>上传文件</h2>
+        <form id="uploadForm">
+          <input type="file" id="fileInput" name="newsFile" />
+          <button type="submit" class="btn">上传</button>
+        </form>
+      </section>
+      <!--
+      <section class="file-list">
+        <h2>文件列表</h2>
+        <ul id="fileList">
+        </ul>
+      </section> -->
+    </main>
+    <footer>
+      <p>&copy; 2023 CSBD</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
